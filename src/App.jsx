@@ -1,4 +1,4 @@
-g
+
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
@@ -31,13 +31,13 @@ function App() {
       </p>
 
       
-      <div>
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-      </div>
+      
+      <div><Button text={"First"} /></div>
+      <div> <Button text={"Second"} /></div>
+      <div><Button text={"Third"}/></div>
+      <div> <Button text={"Fourth"}/></div>
+      <div> <Button text={"Fifth"} /></div>
+      
     </div>
   );
 }

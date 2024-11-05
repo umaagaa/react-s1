@@ -1,9 +1,8 @@
 
-function Button() {
+  const Button = ({text}) =>  {
     return (
-      <button>Click Me</button>
-    );
-  }
-  
+        <button>{text}</button>
+      );
+  } ;
+
   export default Button;
-  
