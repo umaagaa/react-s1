@@ -1,7 +1,9 @@
 
-  const Button = ({text}) =>  {
+  const Button = ({text, color}) =>  {
     return (
-        <button>{text}</button>
+        <button style={{ backgroundColor: color }}>
+    {text}
+</button>
       );
   } ;
 

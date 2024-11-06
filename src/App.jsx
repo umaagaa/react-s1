@@ -2,7 +2,8 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
-import Button from './components/Button'; 
+import Row from './components/Row';
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,11 +33,12 @@ function App() {
 
       
       
-      <div><Button text={"First"} /></div>
-      <div> <Button text={"Second"} /></div>
-      <div><Button text={"Third"}/></div>
-      <div> <Button text={"Fourth"}/></div>
-      <div> <Button text={"Fifth"} /></div>
+      <div>
+            <h1>Three Rows of Buttons</h1>
+            <Row color = "green"/>
+            <Row color = "red" />
+            <Row color = "blue  "/>
+        </div>
       
     </div>
   );
